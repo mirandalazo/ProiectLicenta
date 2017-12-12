@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <ng-container *ngIf="obiective">
+      <div *ngFor="let destination of obiective; let i=index;" class="col-md-4">
+        <div class="thumbnail">
+          <img name="poza" src="{{destination.poza}}" alt="...">
+          <div class="caption">
+            <h3 name="titlu">{{destination.titlu}}</h3>
+            <p><a href="/obiectiv?id={{destination.id}}" class="btn btn-primary" role="button">Mai multe..</a></p>
+          </div>
+        </div>
+      </div>
+  </ng-container>
+  </div>
+</div>

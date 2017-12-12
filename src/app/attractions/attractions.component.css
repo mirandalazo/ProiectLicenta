@@ -1,0 +1,64 @@
+.container{
+  width: 100%;
+  height: 600px;
+  background-image: url("http://travelsfinders.com/wp-content/uploads/2017/05/romania-attractions-map_16.jpg");
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+.col-md-4{
+  height: 270px;
+  background-color: white;
+}
+
+.row>.col-md-4{
+  margin-right: 10px;
+}
+
+.row{
+  padding-top: 20px;
+}
+
+#natura{
+  background-image: url("http://www.humideas.com/wp-content/uploads/romania-trip-a-country-rich-in-attractions-and-nature/holidays-romania-travel-romania-holiday.jpg");
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 60%;
+}
+
+#cultura{
+  background-image: url("https://previews.123rf.com/images/florin1961/florin19611209/florin1961120900134/15461085-Romanian-traditional-costumes-from-Bistrita-Nasaud-area-Stock-Photo.jpg");
+  background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-size: 90%;
+}
+
+#arhitectura{
+  background-image: url("http://static-v3d.raileurope-world.com/local/cache-vignettes/L760xH505/romania-peles_castle-_c_david_ionut-shutterstock_83482354-971a4.jpg");
+  background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-size: 70%;
+}
+
+#gastro {
+  background-image: url("http://www.uncover-romania.com/wp-content/uploads/2015/09/romanian-food-6-750x500.jpg");
+  background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-size: 90%;
+}
+
+h2{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 70px;
+}
+
+h2:hover{
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+}

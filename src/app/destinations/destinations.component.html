@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <ng-container *ngIf="destinations">
+      <div *ngFor="let destination of destinations; let i=index;" class="col-md-4">
+        <div class="thumbnail">
+          <img name="poza" src="{{destination.poza}}" alt="...">
+          <div class="caption">
+            <h3 name="nume">{{destination.nume}}</h3>
+            <p><a href="/regiune?id={{destination.id}}" class="btn btn-primary" role="button">Mai multe..</a>
+          </div>
+        </div>
+      </div>
+  </ng-container>
+  </div>
+</div>

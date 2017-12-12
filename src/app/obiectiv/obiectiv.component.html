@@ -1,0 +1,10 @@
+<div class="container">
+  <ng-container *ngIf="obiectiv">
+    <div class="intro">
+      <h1>{{obiectiv.titlu}}</h1>
+      <button class="btn btn-primary" (click)="addToList()" *ngIf="loggedIn" >Adaugă în listă</button>
+      <img src='{{obiectiv.poza}}'>
+      <h3>{{obiectiv.descriere}}</h3>
+    </div>
+  </ng-container>
+</div>

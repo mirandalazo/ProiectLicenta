@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <h1>Păstrează aici toate destinațiile în care vrei sa ajungi</h1>
+    <button *ngIf="wishItems" type="button" name="button">Iteme: {{ wishItems.length }}</button>
+    <div class="thumbnail" *ngFor="let o of wishItems">
+      <img src="{{o.poza}}" alt="...">
+      <div class="caption">
+        <h3>{{o.titlu}}</h3>
+      </div>
+      <div id="buttons">
+        <p><a href="/harta?lat={{o.coordonate.coordinates[0]}}&lng={{o.coordonate.coordinates[1]}}" class="btn btn-primary" role="button" id="btn1">Vezi pe harta</a>
+          <button type="button" class="btn btn-default" id="btn2" name="button" (click)="removeWishItem(o.id)">Elimina</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

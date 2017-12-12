@@ -1,0 +1,86 @@
+/*video #roVideo{
+  position: absolute;
+      z-index: 0;
+      background-size: 100% 100%;
+      top: 0px;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+}*/
+
+.container{
+  margin: 0px;
+  width: 100%
+
+}
+.container .row{
+
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.thumbnail img{
+  height: 200px;
+margin:auto;
+}
+
+.thumbnail{
+  width: 80%;
+}
+#news{
+  padding-top: 20px;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#txt1{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#txt2{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#txt3{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#txt4{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#thumb1:hover #txt1{
+  opacity: 1;
+}
+
+#thumb2:hover #txt2{
+  opacity: 1;
+}
+
+#thumb3:hover #txt3{
+  opacity: 1;
+}
+
+#thumb4:hover #txt4{
+  opacity: 1;
+}
+
+h2{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  text-decoration-style: solid;
+}
+
+a{
+  text-decoration: none;
+}

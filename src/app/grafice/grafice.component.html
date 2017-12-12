@@ -1,0 +1,20 @@
+<h1>Repartizarea utilizatorilor pe țări</h1>
+<div  id="tari" *ngIf="doughnutChartLabels && doughnutChartData">
+  <canvas baseChart
+              [data]="doughnutChartData"
+              [labels]="doughnutChartLabels"
+              [chartType]="doughnutChartType"
+              (chartHover)="chartHoveredTari($event)"
+              (chartClick)="chartClickedTari($event)"></canvas>
+</div>
+<h1>Cele mai cautate regiuni</h1>
+<div id="regiuni" *ngIf="polarAreaChartLabels && polarAreaChartData">
+  <canvas baseChart
+          [data]="polarAreaChartData"
+          [labels]="polarAreaChartLabels"
+          [legend]="polarAreaLegend"
+          [chartType]="polarAreaChartType"
+          (chartHover)="chartHovered($event)"
+          (chartClick)="chartClicked($event)"></canvas>
+
+</div>

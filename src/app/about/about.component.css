@@ -1,0 +1,12 @@
+.container{
+  margin: 0px;
+  width: 100%
+
+}
+.container .row{
+
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #110f0e;
+}

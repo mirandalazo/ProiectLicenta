@@ -1,0 +1,35 @@
+<div class="register">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label>Nume:</label>
+            <input type="text" class="form-control" id="nume" required minlength="2" maxlength="24" name="nume" [(ngModel)]="userModel.nume" >
+          </div>
+          <div class="form-group">
+            <label>Prenume:</label>
+            <input type="text" class="form-control" id="prenume" required name="prenume" [(ngModel)]="userModel.prenume" >
+            <span  class="help-block hidden">Please fill your username</span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" required name="email" [(ngModel)]="userModel.email" >
+          </div>
+          <div class="form-group">
+            <label for="pwd">Parola:</label>
+            <input type="password" class="form-control" id="pwd" required name="parola" [(ngModel)]="userModel.parola" >
+          </div>
+          <div class="form-group">
+            <label>Țara:</label>
+            <input type="text" class="form-control" id="tara" required name="tara" [(ngModel)]="userModel.tara" >
+          </div>
+          <button type="login" class="btn btn-default" (click)="register()">Înregistrează-te</button>
+
+        </form>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</div>

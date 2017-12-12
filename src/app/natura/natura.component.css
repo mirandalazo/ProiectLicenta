@@ -1,0 +1,25 @@
+.container{
+  padding-top: 20px;
+  height:1100px;
+  background-color: #8dea62;
+}
+
+.thumbnail img{
+  width: 550px;
+  height: 200px;
+}
+
+.btn{
+  background-color:#458e23;
+  border-color: green;
+}
+
+.btn:hover{
+  background-color: #ecf450;
+  color: green;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 30px;
+}

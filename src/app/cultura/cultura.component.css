@@ -1,0 +1,28 @@
+.container{
+  padding-top: 20px;
+  height:750px;
+  background-color: #f4b761;
+}
+
+.thumbnail img{
+  width: 550px;
+  height: 200px;
+}
+
+.thumbnail{
+  min-height: 350px;
+}
+
+.btn{
+  background-color:#f7a22a;
+  border-color: orange;
+  margin-bottom: 0px;
+}
+p{
+  margin-bottom: 0px;
+}
+
+.btn:hover{
+  background-color: #b8cced;
+  color: #f7a22a;
+}
